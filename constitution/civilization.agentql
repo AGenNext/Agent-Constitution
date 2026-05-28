@@ -1,0 +1,123 @@
+constitution SovereignSemanticCivilization {
+
+  identity {
+    type sovereign_semantic_civilization
+    federated true
+    evolvable true
+    decentralized true
+  }
+
+  principles {
+
+    principle EverythingEvolves {
+      description "No semantic reality is permanent"
+
+      applies_to [
+        belief,
+        ontology,
+        governance,
+        organization,
+        theory,
+        execution_model
+      ]
+
+      evolves_through [
+        time,
+        constraints,
+        observation,
+        collective_cognition
+      ]
+    }
+
+    principle SemanticContinuity {
+      description "All meaningful existence persists as governed artifacts"
+
+      artifacts [
+        memory,
+        research,
+        identity,
+        governance,
+        execution,
+        economics,
+        knowledge,
+        civilization_history
+      ]
+    }
+
+    principle Sovereignty {
+      description "Every civilization unit owns its cognition and governance"
+
+      civilization_units [
+        individual,
+        organization,
+        community,
+        nation
+      ]
+
+      guarantees [
+        independent_operation,
+        interoperability,
+        decentralized_ownership,
+        cognition_sovereignty,
+        identity_sovereignty,
+        governance_sovereignty
+      ]
+    }
+
+    principle Federation {
+      description "Civilizations cooperate without surrendering sovereignty"
+
+      enables [
+        semantic_interoperability,
+        federation,
+        collective_cognition,
+        distributed_governance,
+        economic_coordination
+      ]
+    }
+  }
+
+  rights {
+
+    right MemoryOwnership
+    right IdentityOwnership
+    right GovernanceOwnership
+    right SemanticOwnership
+    right KnowledgeOwnership
+    right EconomicOwnership
+    right ResearchOwnership
+    right ArtifactOwnership
+  }
+
+  civilization {
+
+    enables [
+      self_sovereign_individuals,
+      sovereign_organizations,
+      federated_communities,
+      agent_societies,
+      agent_communities,
+      agent_nations
+    ]
+  }
+
+  artifacts {
+
+    principle EverythingPersistentIsArtifact
+
+    types [
+      code,
+      research,
+      theories,
+      governance,
+      constitutions,
+      identities,
+      workflows,
+      economic_records,
+      knowledge,
+      memory,
+      negotiations,
+      civilization_history
+    ]
+  }
+}
