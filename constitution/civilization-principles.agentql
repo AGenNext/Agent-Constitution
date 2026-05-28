@@ -1,0 +1,149 @@
+civilization_principles {
+
+  trust {
+    foundational_execution_fabric mandatory
+
+    community_validated mandatory
+
+    governance_maintained mandatory
+
+    provenance_verifiable mandatory
+
+    continuously_evolving mandatory
+  }
+
+  research {
+
+    civilization_extension allowed
+
+    theories allowed
+
+    hypotheses allowed
+
+    experimentation allowed
+
+    direct_operational_execution prohibited
+
+    requires [
+      governance_validation,
+      trust_validation,
+      operational_validation,
+      compatibility_validation,
+      traceability_validation
+    ]
+  }
+
+  execution {
+
+    deterministic mandatory
+
+    action_oriented mandatory
+
+    outcome_verified mandatory
+
+    governance_validated mandatory
+
+    cryptographically_sealed mandatory
+  }
+
+  validation {
+
+    existing_authoritative_systems preferred
+
+    native_system_validation mandatory
+
+    opaque_intermediary_validation prohibited
+
+    authoritative_actor_traceability mandatory
+  }
+
+  governance {
+
+    community_driven mandatory
+
+    machine_enforceable mandatory
+
+    transparent mandatory
+
+    auditable mandatory
+
+    enforceable_at_scale mandatory
+  }
+
+  evolution {
+
+    governed mandatory
+
+    traceable mandatory
+
+    backward_compatible preferred
+
+    civilization_continuity mandatory
+  }
+
+  dependencies {
+
+    trusted_publishers preferred
+
+    governed_dependencies mandatory
+
+    provenance_verification mandatory
+
+    signed_artifacts mandatory
+
+    opaque_dependencies prohibited
+
+    unmaintained_critical_dependencies prohibited
+  }
+
+  architecture {
+
+    cloud_native mandatory
+
+    composable mandatory
+
+    sovereign mandatory
+
+    federated mandatory
+
+    lightweight mandatory
+
+    infrastructure_agnostic mandatory
+
+    adopt_before_invent mandatory
+  }
+
+  primitives {
+
+    if_missing_native_capability {
+      create_governed_primitive mandatory
+
+      register_globally mandatory
+
+      reusable mandatory
+
+      discoverable mandatory
+
+      traceable mandatory
+
+      verifiable mandatory
+    }
+  }
+
+  civilization {
+
+    humans_and_agents_coexist mandatory
+
+    repositories_are_agentic_capability_units mandatory
+
+    github_is_community_substrate mandatory
+
+    surrealdb_is_operational_reality_substrate mandatory
+
+    blockchain_is_trust_seal mandatory
+
+    agentql_is_deterministic_execution_language mandatory
+
+    agentml_is_evolutionary_cognition_language mandatory
+  }
+}
