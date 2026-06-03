@@ -54,6 +54,20 @@ The Constitution is a living document.
 - New versions must remain publicly auditable.
 - Agents should declare the Constitution version they follow.
 
+## Constitutional Knowledge Graph
+
+Constitution → Principles → Articles → Policies → Constraints → Actions → Audits → Revisions
+
+Every agent action should be traceable back to a constitutional principle or article.
+
+Resolution Flow:
+
+Request → Intent Detection → Constitution Check → Rights Check → Duty Check → Safety Check → Policy Resolution → Action Authorization → Execution → Audit Log
+
+Long-Term Goal:
+
+Build a Constitutional Operating System (COS) where autonomous agents operate under transparent, auditable, and continuously evolving governance.
+
 ## Consumers
 
 - Agent-Team
